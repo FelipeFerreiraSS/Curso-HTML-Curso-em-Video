@@ -139,6 +139,30 @@ table#tabelaspec td {
     vertical-align: middle;
 }
 
+table#tabelaspec td.ce {
+    color: white;
+    background-color: #606060;
+    vertical-align: top;
+    font-weight: bolder;
+}
+
+table#tabelaspec td.cd {
+    background-color: #cecece;
+}
+
+table#tabelaspec caption{
+    color: #888888;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+table#tabelaspec caption span {
+    display: block;
+    float: right;
+    font-size: 10px;
+    margin-top: 10px;
+}
+
 aside#lateral {
     display: block;
     width: 580px;
